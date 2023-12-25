@@ -1,0 +1,154 @@
+.container-fluid.login, .container-fluid.signup, .container-fluid.reset-pwd {
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    .container {
+        .login-fields {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .container-xs {
+                max-width: 350px;
+                display: flex;
+                flex-direction: column;
+                .logo {
+                    text-align: center;
+                    img {
+                        max-width: 168px;
+                        max-height: 70px;
+                    }
+                }
+                h2.text {
+                    text-align: center;
+                    font-size: 1.57rem;
+                    margin-bottom: 2rem;
+                    margin-top: 1rem;
+                    line-height: 1.2;
+                }
+                input.form-field {
+                    display: block;
+                    width: 100%;
+                    height: calc(1.5em + .75rem + 2px);
+                    padding: .375rem .75rem;
+                    font-size: .9rem;
+                    line-height: 1.5;
+                    color: #42526e;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #c9ced6;
+                    border-radius: .25rem;
+                    box-shadow: none;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    margin-bottom: 15px;
+                    height: 50px;
+                }
+                .form-group {
+                    input[type="checkbox"]+label {
+                        font-size: .8rem;
+                        vertical-align: middle;
+                    }
+                }
+                .form-button {
+                    height: 50px;
+                    padding: .5rem 1rem;
+                    font-size: 1.125rem;
+                    line-height: 1.5;
+                    border-radius: .3rem;
+                    color: #fff;
+                    background: #c82cff;
+                    border: 1px solid #c82cff;
+                }
+                .sign-in {
+                    margin-top: 10px;
+                    font-size: .8rem;
+                }
+                .frgt-pwd {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+                .create-account {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+                .frgt-pwd, .create-account {
+                    a:hover{
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+        .align-items-center {
+            ul.checklist {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    position: relative;
+                    padding-left: 30px;
+                    margin-bottom: 30px;
+                    svg.svg-inline--fa.fa-check-circle.fa-w-16 {
+                        position: absolute;
+                        left: 0;
+                        color: #15a1f8;
+                        /* font-family: "Font Awesome 5 Pro"; */
+                        font-weight: 900;
+                        font-size: 18px;
+                        margin-top: 6px;
+                    }
+                    h2 {
+                        font-weight: 900;
+                        color: #15a1f8;
+                        font-size: 22px;
+                        margin: 0 0 5px;
+                    }
+                    p {
+                        margin-top: 0;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+// SignOut css
+.main-content {
+    height: 100%;
+}
+.container-fluid {
+    margin-top: auto;
+    margin-bottom: auto;
+    .navbar.navbar-public{
+        padding-top: 1rem;
+        a.navbar-brand {
+            margin: 0;
+            font-weight: 700;
+            color: #6b778c;
+            width: 100%;
+            text-align: center;
+            img {
+                max-width: 168px;
+                max-height: 70px;
+            }
+        }
+    }
+    .content {
+        padding: 1rem;
+        .container {
+            h1 {
+                font-size: 1.575rem;
+            }
+        }
+    }
+}
+.verify-email {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .logo {
+        margin-bottom: 10px;
+    }
+}
